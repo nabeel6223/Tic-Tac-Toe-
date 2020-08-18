@@ -1,0 +1,175 @@
+body{
+    background-color:#2B2B52 ;
+    width:100%;
+    margin: 0px;
+    padding: 0px;
+}
+.again:hover{
+    cursor: not-allowed;
+}
+.maintitle{
+    font-family: 'Rowdies', cursive;
+    display: flex;
+    margin-top: 5vh;
+    color: #EAF0F1;
+    justify-content: center;
+    font-size: 80px;
+    letter-spacing: 3px;
+    /* font-variant: small-caps; */
+    margin-bottom: 5vh;
+}
+.createRoom{
+    padding: 30px;
+    padding-top: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    font-family: 'Montserrat', sans-serif;
+
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(0, 0, 0, 0.03), 0 0.9375rem 1.40625rem rgba(0, 0, 0, 0.03), 0 0.25rem 0.53125rem rgba(0, 0, 0, 0.05), 0 0.125rem 0.1875rem rgba(0, 0, 0, 0.03);
+    border:1px solid rgba(0, 0, 0, 0.125);
+}
+.or{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border-top: 1px solid #99AAAB;
+    border-bottom: 1px solid #99AAAB;
+    display: flex;
+    justify-content: center;
+
+}
+.createRoom h1{
+    font-size: 40px;
+    font-family: 'Blinker', sans-serif;
+
+}
+.createRoom form{
+padding-top: 10px;
+}
+.wait{
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.msg{
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    height: 63vh;
+    width: 40%;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(0, 0, 0, 0.03), 0 0.9375rem 1.40625rem rgba(0, 0, 0, 0.03), 0 0.25rem 0.53125rem rgba(0, 0, 0, 0.05), 0 0.125rem 0.1875rem rgba(0, 0, 0, 0.03);
+    border:1px solid rgba(0, 0, 0, 0.125);
+    margin-left: 30%;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 2vh;
+
+}
+.turn{
+color: white;
+text-align: center;
+font-size: 20px;
+background-color: #4BCFFA;
+height: 5vh;
+width: 100%;
+}
+.blocks{
+    margin-top: 1vh;
+    border:1px solid #4BCFFA;
+    height: 54vh ;
+}
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth ,.ninth:hover{
+    cursor: pointer;
+}
+.first, .second, .third, .fourth, .fifth, .sixth, .seventh, .eighth ,.ninth{
+    display: block;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 70px;
+    text-align: center;
+    border:1px solid #4BCFFA;
+    width: 33.3333333%;
+    height: 18vh;
+}
+.info1, .info2{
+    margin:20px;
+    color: white;
+}
+.info3{
+    color: white;
+}
+@media only screen and (max-width:1100px){
+    .createRoom{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+@media only screen and (max-width:992px){
+    .wait{
+        font-size:28px;
+    }
+.main{
+  width: 60%;
+  margin-left: 20%;
+}
+}
+@media only screen and (max-width:850px){
+    .main{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .createRoom{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .createRoom h1{
+        font-size: 30px;
+    
+    }
+}
+@media only screen and (max-width:750px){
+    .wait{
+        font-size:25px;
+    }
+    .main{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .maintitle{
+        font-size: 70px;
+    }
+    .createRoom{
+        width: 55%;
+        margin-left: 22.5%;
+        margin-right: 22.5%;
+    }
+}
+@media only screen and (max-width:650px){
+ .maintitle{
+     font-size: 45px;
+ }
+ .createRoom{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.main{
+    width: 95%;
+    margin-left: 2.5%;
+}
+}

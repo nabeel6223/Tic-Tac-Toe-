@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@600&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Tic Tac Toe | Join Room</title>
+</head>
+<body>
+    <div class="maintitle">
+       TIC TAC TOE
+    </div>
+    <div class="createRoom">
+     <h1>
+        Join Room
+     </h1>
+     <form action="/gameplay">
+        <div class="form-group">
+          <label>Display Name</label>
+          <input name="name"  class="form-control" maxlength="8" required>
+        </div>
+        <div class="form-group">
+            <label>Enter Room Code</label>
+            <input  name="room" class="form-control" maxlength="5" pattern="[0-9]{5}"  minlength="5" title="Must be of 5 digits" required>
+          </div>
+          <div class="text-danger m-1">
+          {{error}}
+          </div>
+  
+
+        <button type="submit" class="btn btn-block btn-primary">Join Room</button>
+      <div class="or">
+          OR
+      </div>
+      </form>
+     <a href="/"> <button  class="btn btn-block btn-primary">Create Room</button></a>
+             <div class="or">
+          OR
+      </div>
+      <a href="/cpu"><button class="btn btn-block btn-dark ">Play with CPU</button></a>
+    </div>
+</body>
+</html>
